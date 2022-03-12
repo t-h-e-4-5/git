@@ -44,5 +44,12 @@ public class Complexe {
     {
         return new Complexe(-reel, -imaginaire);
     }
-    
+    public Complexe addition (Complexe z1, Complexe z2)
+    {
+        return new Complexe(z1.reel+z2.reel, z1.imaginaire+z2.imaginaire);
+    }
+    public Complexe soustraction (Complexe z1, Complexe z2)
+    {
+        return new Complexe(z1.reel-z2.reel, z1.imaginaire-z2.imaginaire);
+    }
 }
